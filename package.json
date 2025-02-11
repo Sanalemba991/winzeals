@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js",
-     "build": "node server.js"
+    "build": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +19,7 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "fast-two-sms": "^3.0.0",
+    "is-ci": "^4.1.0",
     "jsonwebtoken": "^9.0.2",
     "mongodb": "^6.12.0",
     "mongoose": "^8.9.5",
